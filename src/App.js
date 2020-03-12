@@ -4,7 +4,7 @@ import "./assets/main.css";
 
 function App() {
   return (
-    <div className="flex h-screen justify-center overflow-hidden">
+    <div className="container mx-auto  border border-gray-600 flex overflow-hidden">
       <div className="hidden md:block">
         <img className="h-screen" src="images/fox.png" alt="" />
       </div>
@@ -21,7 +21,7 @@ function App() {
             alt=""
           />
         </div>
-        <div className="mt-8 mx-8 text-left "></div>
+        <div className="mt-8 mx-8 text-left "> here is the content</div>
       </div>
     </div>
   );
