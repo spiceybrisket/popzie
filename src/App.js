@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Context } from "./context/store";
 
 import "./assets/main.css";
 
 function App() {
+  const [state] = useContext(Context);
+
+  console.log(state);
   return (
-    <div className="container mx-auto  border border-gray-600 flex overflow-hidden">
+    <div className="container mx-auto flex overflow-hidden">
       <div className="hidden md:block">
         <img className="h-screen" src="images/fox.png" alt="" />
       </div>
