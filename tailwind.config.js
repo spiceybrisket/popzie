@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: { fontFamily: { hand: ["Patrick Hand", "cursive"] } }
   },
-  variants: {},
+  variants: { gridTemplateColumns: ["responsive", "hover", "focus"] },
   plugins: []
 };
