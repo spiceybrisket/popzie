@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "autoprefixer": "^9.7.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "postcss-cli": "^7.1.0",
     "react": "^16.13.0",
     "react-combine-reducers": "^1.0.2",
